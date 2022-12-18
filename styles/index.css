@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+body {
+    background-color: rgb(151, 145, 145);
+}
+
+.outline {
+    margin-top: 16%;
+    margin-left: 25%;
+    height: 340px;
+    width: 32%;
+    background-color: rgb(159, 157, 157);
+    border-radius: 8%;
+    position: absolute;
+    box-shadow:  -6px -2px 14px 5px rgb(53, 53, 53); ;
+}
+
+.outline:hover {
+       box-shadow:  -6px -2px 14px 5px rgb(27, 27, 27); ;
+}
+
+.body {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 1.8%;
+    height: 335px;
+    width: 96%;
+    background-color: black;
+    border-radius: 8%;
+}
+
+.time {
+    position: relative;
+    color:white;
+    bottom: 93%;
+    font-size: 7px;
+    left: 9%;
+    display: flex;
+    justify-content:space-between ;
+    width: 84%;
+}
+
+.number {
+    position: relative;
+    color:white;
+    bottom: 78%;
+    font-size: 47px;
+    left: 79%;
+}
+
+.pad {
+    position: relative;
+
+    height: 190px;
+    width: 94.4%;
+    bottom: 78%;
+    left: 2.6%;
+    border-bottom-left-radius:8%;
+    border-bottom-right-radius:8%;
+}
+
+.btn1, .btn2, .btn7, .btn8, .btn9 {
+    position: relative;
+    background-color: grey;
+   width: 21%;
+    height: 12%;
+    top: 7px;
+    border-radius: 60%;
+    left: 3%;
+    text-align: center;
+    padding-top:5%;
+}
+
+.btn2 {
+    width:40%;
+    border-radius: 30px;
+    height: 14%;
+    top: 8%;
+    text-align:left;
+    padding-left: 15px;
+}
+
+.btn3, .btn4, .btn5, .btn6 {
+    position: relative;
+    background-color: grey;
+    width: 21%;
+    height: 12%;
+    bottom: 83%;
+    border-radius: 60%;
+    left: 29%;
+    text-align: center;
+    padding-top:5%;
+    font-size: 16px;
+}
+
+.btn6 {
+    bottom: 79%;
+}
+
+.btn5 {
+    bottom: 81%;
+}
+
+.btn4 {
+    bottom: 82%;
+}
+
+.btn3{
+    bottom: 84%;
+     background-color: rgb(170, 168, 168);
+}
+
+.btn1 {
+    top: 4%;
+}
+
+.btn9 {
+    top: 2%;
+}
+
+.btn8 {
+    top: 1%;
+}
+
+.btn7 {
+    top: -0.6%;
+    background-color: rgb(170, 168, 168);
+}
+
+.btnp, .btna, .btnb, .btnc, .btnd {
+ position: relative;
+    background-color: grey;
+    width: 21%;
+    height: 12%;
+    bottom: 280px;
+    border-radius: 60%;
+    left: 54%;
+    text-align: center;
+    padding-top:5%;
+    font-size: 16px;
+}
+
+.btnp {
+    bottom: 149%;
+        background-color: rgb(170, 168, 168);
+
+}
+
+.btna {
+    bottom: 147%;
+   
+}
+
+.btnb {
+    bottom: 145%;
+  
+}
+
+.btnc {
+    bottom: 143%;
+}
+
+.btnd {
+    width: 22%;
+    height: 13%;
+    bottom: 141%;
+}
+
+.btn1, .btn2, .btn4, .btn5, .btn6, .btn8, .btn9, .btna, .btnb, .btnc, .btnd {
+    background-color: rgb(66, 63, 63);
+    color: white;
+}
+
+.btne, .btnf, .btng, .btnh, .btni {
+    position: relative;
+    background-color: rgb(227, 169, 9);
+    color: white;
+    width: 21%;
+    height: 12%;
+    bottom: 443px;
+    border-radius: 60%;
+    left: 77%;
+    text-align: center;
+    padding-top:5%;
+    font-size: 16px;
+}
+
+.btne {
+    bottom: 440px;
+     width: 20%;
+    height: 11%;
+}
+
+.btnf {
+    bottom: 439px;
+}
+
+.btng {
+    bottom: 436px;
+}
+
+.btnf {
+    bottom: 438px;
+}
+
+.btng {
+    bottom: 435px;
+}
+
+.btnh {
+    bottom: 432px;
+}
+
+.btni {
+    bottom: 427px;
+     width: 20%;
+    height: 13.9%;
+    left: 78%;
+}
+
+.btn1:hover, .btn2:hover, .btn7:hover, .btn8:hover, .btn9:hover, .btn1:hover, .btn2:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn8:hover, .btn9:hover, .btna:hover, .btnb:hover, .btnc:hover, .btnd:hover, .btne:hover, .btnf:hover, .btng:hover, .btnh:hover, .btni:hover, .btn3:hover, .btnp:hover {
+    color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 8px 1px rgb(138, 136, 136); ;
+} 
+
+.sidebar {
+     position: relative;
+    background-color: rgb(228, 228, 228);
+  
+    width: 61%;
+    height: -16%;
+    bottom: 408px;
+   border-radius: 10%;
+    left: 20%;
+    text-align: center;
+    padding: 1px;
+    font-size: 16px;
+  
+}
